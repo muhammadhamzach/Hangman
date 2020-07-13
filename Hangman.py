@@ -106,7 +106,6 @@ def game(guessed): #full game code
     hangman_status = 0
     
     word = word_import()
-    print(word)
     clock = pygame.time.Clock()
     run = True
 
